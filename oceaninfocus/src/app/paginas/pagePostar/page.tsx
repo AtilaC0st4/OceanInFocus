@@ -1,10 +1,11 @@
 import Footer from "@/app/componentes/footer/footer";
+import HeaderFinal from "@/app/componentes/header/haederFinal";
 import HeaderInicial from "@/app/componentes/headerInicial/headerInicial";
 
-const PagePost = () => {
+const PagePostar = () => {
     return (
         <>
-            
+            <HeaderFinal />
 
             <section className="denuncie">
                 <form action="">
@@ -29,4 +30,4 @@ const PagePost = () => {
         </>
     )
 };
-export default PagePost;
+export default PagePostar;  

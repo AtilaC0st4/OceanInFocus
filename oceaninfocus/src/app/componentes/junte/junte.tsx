@@ -33,10 +33,9 @@ const Junte = () => {
 
                     </div>
 
-
-
-
                 </div>
+
+                <div className="borda" ></div>
 
             </section>
 

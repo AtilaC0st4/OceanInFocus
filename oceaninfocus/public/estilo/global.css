@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-
-
 :root {
     --text: #e5ecf3;
     --text-black: #000000;
@@ -13,14 +11,12 @@
 
 }
 
-
 * {
     margin: 0 auto;
     padding: 0;
     list-style: none;
     text-decoration: none;
 }
-
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -89,7 +85,6 @@ body {
 
 /* ========================== banner ========================== */
 
-
 .banner{
     width: 100%;
     height: auto;
@@ -128,7 +123,6 @@ body {
     height: 400px;
 }
 
-
 .borda{
     margin-top: 100px;
     width: 50%;
@@ -137,9 +131,7 @@ body {
     margin-left: 0px;
 }
 
-
 /* ========================== Sobre ========================== */
-
 
 .sobre{
     width: 100%;
@@ -158,7 +150,6 @@ body {
     height: auto;
     display: flex;
     gap: 50px;
-
 }
 
 .img-sobre ,.txt-sobre{
@@ -227,7 +218,6 @@ body {
     gap: 100px;
 }
 
-
 .mensagens{
     padding: 30px;
     width: 700px;
@@ -258,9 +248,29 @@ body {
     margin-right: 0;
 }
 
+/* ========================== sugestao ========================== */
+
+.sugestao{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+.form-sugestao{
+    padding: 30px;
+    width: 50%;
+    background-color: var(--cards);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-sugestao label{
+    font-size: 20px;
+    color: var(--text);
+}
 
 /* ========================== Footer ========================== */
-
 
 .rodape{
     background-color: var(--cards);
@@ -270,14 +280,12 @@ body {
     border-top:  1px solid rgb(46, 46, 46);
 }
 
-
 .content-rodape{
     margin: 50px 0;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .content-rodape span{
@@ -299,3 +307,4 @@ body {
     font-size: 20px;
     color: var(--secondary);
 }
+

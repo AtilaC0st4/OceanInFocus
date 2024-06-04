@@ -4,6 +4,7 @@ import Footer from "./componentes/footer/footer";
 import HeaderInicial from "./componentes/headerInicial/headerInicial";
 import Junte from "./componentes/junte/junte";
 import Sobre from "./componentes/sobre/sobre";
+import Sugestao from "./componentes/sugestao/sugestao";
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
     <Sobre></Sobre>
     <Explicacao></Explicacao>
     <Junte></Junte>
+    <Sugestao></Sugestao>
     <Footer></Footer>
     </>
   )

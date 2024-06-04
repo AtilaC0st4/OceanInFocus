@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import './../../public/estilo/global.css'
 
 
 export const metadata: Metadata = {

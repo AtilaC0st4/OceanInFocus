@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+:root {
+    --text: #e5ecf3;
+    --text-black: #000000;
+    --background: #070c11;
+    --primary: #8bb6e0;
+    --secondary: #194f85;
+    --accent: #3990e6;
+    --cards: #101A25;
+
+}
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background);
+}
+
+.content{
+    width: 80%;
+}
+
+/* ========================== Header ========================== */
+
+.cabecalho {
+    width: 100%;
+    height: 90px;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(46, 46, 46);
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btns-menu {
+    display: flex;
+    gap: 30px;
+
+}
+
+.btn-entrar {
+    background-color: var(--primary);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-black);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-entrar:hover{
+    box-shadow: 0px 4px 28px 11px rgba(178, 212, 255, 0.2);
+}
+
+.btn-cadastro{
+    background-color: var(--secondary);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-cadastro:hover{
+    box-shadow: 0px 4px 28px 11px rgba(178, 212, 255, 0.2);
+}
+
+/* ========================== banner ========================== */
+
+
+.banner{
+    width: 100%;
+    height: auto;
+}
+
+.container-banner{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.txt-banner{
+    color: var(--text);
+    width: 50%;
+}
+
+.txt-banner h1{
+    font-size: 50px;
+}
+.txt-banner p{
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.img-banner{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-banner img{
+    width: 600px;
+    height: 400px;
+}
+
+
+.borda{
+    margin-top: 100px;
+    width: 50%;
+    height: 10px;
+    background-color: var(--primary);
+    margin-left: 0px;
+}
+
+
+/* ========================== Sobre ========================== */
+
+
+.sobre{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.subtitulo{
+    font-size: 36px;
+    color: var(--primary);
+    text-align: center;
+}
+
+.container-sobre{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+
+}
+
+.img-sobre ,.txt-sobre{
+    margin-top: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-sobre p{
+    font-size: 28px;
+    color: var(--text);
+}
+
+#borda2{
+    margin-left: auto;
+    margin-right: 0;
+    background-color: var(--accent);
+}
+
+/* ========================== Explicacão ========================== */
+
+.explicacao{
+    width: 100%;
+    height: auto;
+    margin-top:  100px;
+}
+
+.card {
+    padding: 0 50px ;
+    margin-top: 100px;
+    width: 640px;
+    height: 130px;
+    background-color: var(--cards);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card span{
+    padding-left: 50px;
+    color: var(--text);
+    font-size: 20px;
+    border-left: 5px solid var(--primary);
+}
+

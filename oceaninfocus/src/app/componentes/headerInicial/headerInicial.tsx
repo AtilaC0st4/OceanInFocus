@@ -8,23 +8,18 @@ const HeaderInicial = () => {
         <>
             <header className="cabecalho">
 
-
-
                 <nav className="menu">
 
                     <Link href='\'><Image src='/imagens/LogoGS.png' alt="" width={70} height={70}></Image></Link>
 
                     <div className="btns-menu">
 
-                        <div className="btn-entrar"><Link href='#'>Entre</Link></div>
-                        <div className="btn-cadastro"><Link href='#'>Cadastre-se</Link></div>
+                        <Link href='#' className="btn-entrar">Entre</Link>
+                       <Link href='#' className="btn-cadastro">Cadastre-se</Link>
 
-                    </div>
+                    </div>''
 
                 </nav>
-
-
-
 
             </header>
         </>

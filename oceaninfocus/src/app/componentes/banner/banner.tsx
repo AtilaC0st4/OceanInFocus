@@ -25,8 +25,9 @@ const Banner = () => {
                     </div>
 
                 </div>
-
+                <div className="borda"></div>
             </section>
+
 
         </>
     )

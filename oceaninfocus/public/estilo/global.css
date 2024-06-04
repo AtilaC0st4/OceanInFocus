@@ -207,3 +207,95 @@ body {
     border-left: 5px solid var(--primary);
 }
 
+#borda3{
+    background-color: var(--secondary);
+}
+
+/* ========================== Explicacão ========================== */
+
+.junte{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.container-junte{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+.mensagens{
+    padding: 30px;
+    width: 700px;
+    height: auto;
+    background-color: var(--cards);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+}
+
+.mensagens h3{
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.mensagens p{
+    color: var(--text);
+    font-size: 20px;
+}
+
+#msg1{
+    margin-left: 0;
+}
+
+#msg2{
+    margin-right: 0;
+}
+
+
+/* ========================== Footer ========================== */
+
+
+.rodape{
+    background-color: var(--cards);
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    border-top:  1px solid rgb(46, 46, 46);
+}
+
+
+.content-rodape{
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.content-rodape span{
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.rodape-footer{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    background-color: #8bb6e0;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape-footer span{
+    font-weight: bolder;
+    font-size: 20px;
+    color: var(--secondary);
+}

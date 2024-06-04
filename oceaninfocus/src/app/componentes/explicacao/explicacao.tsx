@@ -11,6 +11,8 @@ const Explicacao = () => {
                     
                 </div>
 
+                <div className="borda" id="borda3"></div>
+
             </section>
 
         </>

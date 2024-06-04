@@ -17,7 +17,7 @@ const HeaderInicial = () => {
                         <Link href='#' className="btn-entrar">Entre</Link>
                        <Link href='#' className="btn-cadastro">Cadastre-se</Link>
 
-                    </div>''
+                    </div>
 
                 </nav>
 

@@ -11,12 +11,14 @@ const Sugestao = () => {
 
                         <div className="campo-form-sugestao">
                             <label htmlFor="email">Digite seu email:</label>
-                            <input type="email" name="email" required></input>
+                            <div><input type="email" name="email" required></input></div>
+                            
                         </div>
 
                         <div className="campo-form-sugestao">
                             <label htmlFor="feedback">Deixe sua sugestão aqui:</label>
-                            <textarea name="feedback" id="feedback" rows={10} cols={10}></textarea>
+                            <div><textarea name="feedback" id="feedback" ></textarea></div>
+                            
                         </div>
 
                     </form>

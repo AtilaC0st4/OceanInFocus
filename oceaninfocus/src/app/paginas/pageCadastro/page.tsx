@@ -1,13 +1,56 @@
+'use client';
+
+import React, { FormEvent } from 'react';
 import Footer from "@/app/componentes/footer/footer";
 import HeaderInicial from "@/app/componentes/headerInicial/headerInicial";
 
 const PageCadastro = () => {
+    const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
+
+        const formData = new FormData(event.currentTarget);
+        const nome = formData.get('nome') as string;
+        const dtNascimento = formData.get('dtNascimento') as string;
+        const CPF = formData.get('CPF') as string;
+        const email = formData.get('email') as string;
+        const telefone = formData.get('telefone') as string;
+        const nomeUsuario = formData.get('nomeUsuario') as string;
+        const senha = formData.get('senha') as string;
+
+        try {
+            const response = await fetch('URL_DA_API_CADASTRO', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    nome,
+                    dtNascimento,
+                    CPF,
+                    email,
+                    telefone,
+                    nomeUsuario,
+                    senha,
+                }),
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error status: ${response.status}`);
+            }
+
+            alert('Cadastro realizado com sucesso!');
+        } catch (error) {
+            console.error(error);
+            alert('Erro ao realizar o cadastro.');
+        }
+    };
+
     return (
         <>
             <HeaderInicial />
 
             <section className="login">
-                <form action="" className="form-login">
+                <form action="" className="form-login" onSubmit={handleSubmit}>
                     <h1>Cadastre-se</h1>
 
                     <div className="container-forms">
@@ -56,12 +99,12 @@ const PageCadastro = () => {
                     </div>
                     </div>
                     <button className="btn-entrar">Cadastre-se</button>
-
                 </form>
             </section>
 
             <Footer />
         </>
-    )
+    );
 };
+
 export default PageCadastro;

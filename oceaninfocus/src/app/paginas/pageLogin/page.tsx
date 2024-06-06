@@ -32,7 +32,7 @@ const PageLogin = () => {
                     </div>
                     </div>
                     <button className="btn-entrar">Entrar</button>
-                    <Link href='/paginas/pagePostar/'> aqui</Link>
+                    <Link href='/paginas/pageFeed/'> aqui</Link>
 
                 </form>
             </section>

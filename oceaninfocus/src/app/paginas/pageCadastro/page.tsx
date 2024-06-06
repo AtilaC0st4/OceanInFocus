@@ -6,40 +6,56 @@ const PageCadastro = () => {
         <>
             <HeaderInicial />
 
-            <section className="cadastro">
-                <form action="">
+            <section className="login">
+                <form action="" className="form-login">
                     <h1>Cadastre-se</h1>
 
-                    <div>
-                        <label htmlFor="nome">Nome:</label>
-                        <input type="text" name="nome" />
-                    </div>
+                    <div className="container-forms">
 
-                    <div>
+                    <div className="campo-forms">
+                        <label htmlFor="nome">Nome:</label>
+                    </div>
+                    <div className="campo-forms">
+                        <input type="text" name="nome" placeholder="Nome" />
+                    </div>
+                    <div className="campo-forms">
                         <label htmlFor="dtNascimento">Data de nascimento:</label>
+                    </div>
+                    <div className="campo-forms">
                         <input type="date" name="dtNascimento" />
                     </div>
-                    <div>
+                    <div className="campo-forms">
                         <label htmlFor="CPF">CPF:</label>
-                        <input type="password" name="CPF" />
                     </div>
-                    <div>
+                    <div className="campo-forms">
+                        <input type="text" name="CPF" placeholder="CPF" />
+                    </div>
+                    <div className="campo-forms">
                         <label htmlFor="email">E-mail:</label>
-                        <input type="email" name="email" />
                     </div>
-                    <div>
+                    <div className="campo-forms">
+                        <input type="email" name="email" placeholder="E-mail" />
+                    </div>
+                    <div className="campo-forms">
                         <label htmlFor="telefone">Telefone:</label>
-                        <input type="tel" name="telefone" />
                     </div>
-                    <div>
+                    <div className="campo-forms">
+                        <input type="tel" name="telefone" placeholder="Telefone" />
+                    </div>
+                    <div className="campo-forms">
                         <label htmlFor="nomeUsuario">Nome de usuário:</label>
-                        <input type="text" name="nomeUsuario" />
                     </div>
-                    <div>
+                    <div className="campo-forms">
+                        <input type="text" name="nomeUsuario" placeholder="Nome de usuário" />
+                    </div>
+                    <div className="campo-forms">
                         <label htmlFor="senha">Senha:</label>
-                        <input type="password" name="senha" />
                     </div>
-                    <button>Cadastre-se</button>
+                    <div className="campo-forms">
+                        <input type="password" name="senha" placeholder="Senha" />
+                    </div>
+                    </div>
+                    <button className="btn-entrar">Cadastre-se</button>
 
                 </form>
             </section>

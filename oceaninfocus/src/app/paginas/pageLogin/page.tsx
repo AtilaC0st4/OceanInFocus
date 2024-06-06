@@ -7,20 +7,30 @@ const PageLogin = () => {
             <HeaderInicial />
 
             <section className="login">
-                <form action="">
+
+                <form action="" className="form-login" >
+
                     <h1>Bem-vindo(a)</h1>
 
-                    <div>
+                    <div className="container-forms">
+
+                    <div className="campo-forms">
                         <label htmlFor="nome">Nome de usuário:</label>
-                        <input type="text" name="nome" />
                     </div>
 
-                    <div>
+                    <div className="campo-forms">
+                        <input type="text" name="nome" placeholder="Nome de usuário" />
+                    </div>
+
+                    <div className="campo-forms">
                         <label htmlFor="senha">Senha:</label>
-                        <input type="password" name="senha" />
                     </div>
 
-                    <button>Entrar</button>
+                    <div className="campo-forms">                                                                                     
+                        <input type="password" name="senha" placeholder="Senha"/>
+                    </div>
+                    </div>
+                    <button className="btn-entrar">Entrar</button>
 
                 </form>
             </section>

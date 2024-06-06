@@ -13,8 +13,8 @@ const Footer = () => {
 
                     <ul>
                         <li><span>Átila Costa - RM552650</span></li>
-                        <li><span>Gabriel Onodera - RM000000</span></li>
-                        <li><span>Gabriel Plasa - RM000000</span></li>
+                        <li><span>Gabriel Onodera - RM553779</span></li>
+                        <li><span>Gabriel Plasa - RM553527</span></li>
                     </ul>
                 </div>
 

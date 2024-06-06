@@ -3,31 +3,39 @@ import HeaderFinal from "@/app/componentes/header/haederFinal";
 import HeaderInicial from "@/app/componentes/headerInicial/headerInicial";
 
 const PagePostar = () => {
-    return (
-        <>
-            <HeaderFinal />
+  return (
+    <>
+      <HeaderFinal />
 
-            <section className="denuncie">
-                <form action="">
-                    <h1>Denuncie</h1>
+      <section className="login">
+        <form action="/upload" method="post" className="form-login">
+          <h1>Denuncie</h1>
 
-                    <div>
-                        <label htmlFor="descricao">Descrição da denúncia</label>
-                        <textarea name="descricao" id=""></textarea>
-                    </div>
+          <div className="container-forms">
 
-                    <div>
-                        <label htmlFor="imagem">Carregue a imagem aqui:</label>
-                        <input type="image" name="imagem" />
-                    </div>
+          <div className="campo-forms">
+            <label htmlFor="descricao">Descrição da denúncia</label>
+          </div>
 
-                    <button>Postar</button>
+          <div className="campo-forms">
+            <input type='text' name="descricao" id=""></input>
+          </div>
 
-                </form>
-            </section>
+          <div className="campo-forms">
+            <label htmlFor="imagem">Carregue a imagem aqui:</label>
+          </div>
 
-            <Footer />
-        </>
-    )
+          <div className="campo-forms">
+            <input type="file" id="imagem"  accept="image/*" name="imagem" />
+          </div>
+          </div>
+
+          <button className="btn-entrar">Postar</button>
+        </form>
+      </section>
+
+      <Footer />
+    </>
+  );
 };
-export default PagePostar;  
+export default PagePostar;

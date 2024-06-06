@@ -1,5 +1,6 @@
 import Footer from "@/app/componentes/footer/footer";
 import HeaderInicial from "@/app/componentes/headerInicial/headerInicial";
+import Link from "next/link";
 
 const PageLogin = () => {
     return (
@@ -31,6 +32,7 @@ const PageLogin = () => {
                     </div>
                     </div>
                     <button className="btn-entrar">Entrar</button>
+                    <Link href='/paginas/pagePostar/'> aqui</Link>
 
                 </form>
             </section>

@@ -16,8 +16,8 @@ const HeaderFinal = () => {
 
                     <div className="btns-menu">
 
-                        <div className="btn-postar"><Link href='#'>Postar</Link></div>
-                        <div className="btn-sair"><Link href='#'>Sair</Link></div>
+                        <div className="btn-entrar"><Link href='#'>Postar</Link></div>
+                        <div className="btn-cadastro"><Link href='\'>Sair</Link></div>
 
                     </div>
 

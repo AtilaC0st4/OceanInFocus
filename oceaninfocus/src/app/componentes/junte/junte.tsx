@@ -35,7 +35,7 @@ const Junte = () => {
 
                 </div>
 
-                <div className="borda" ></div>
+                <div className="borda" id="borda4"></div>
 
             </section>
 

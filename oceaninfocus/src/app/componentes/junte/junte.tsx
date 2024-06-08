@@ -24,8 +24,8 @@ const Junte = () => {
 
                             <div className="btns-menu">
 
-                                <Link href='#' className="btn-entrar">Entre</Link>
-                                <Link href='#' className="btn-cadastro">Cadastre-se</Link>
+                            <Link href='/paginas/pageLogin/' className="btn-entrar">Entre</Link>
+                       <Link href='/paginas/pageCadastro/' className="btn-cadastro">Cadastre-se</Link>
 
                             </div>
 

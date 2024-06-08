@@ -361,7 +361,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Garante que o conteúdo não vaze */
+    overflow: hidden; 
 }
 
 .login::before {
@@ -375,15 +375,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    opacity: 0.5; /* Define a opacidade do GIF */
-    z-index: -1; /* Mantém o pseudo-elemento atrás do conteúdo */
+    opacity: 0.5; 
+    z-index: -1; 
 }
 
 .form-login {
     width: 800px;
     height: auto;
-    background-color: rgba(255, 255, 255, 0.1); /* Cor branca com 80% de opacidade */
-    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1); 
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -423,7 +422,7 @@ body {
 .form-login input {
     color: var(--text);
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.0); /* Cor branca com 50% de opacidade */
+    background-color: rgba(255, 255, 255, 0.0); 
     border: none;
     border-bottom: 2px solid rgb(139, 182, 224);
 }
@@ -436,7 +435,7 @@ body {
 
 
 .form-login input[type="date"]::-webkit-calendar-picker-indicator {
-    filter: invert(1); /* Inverte as cores do ícone */
+    filter: invert(1); 
 }
 
 .feed{
